@@ -1,0 +1,52 @@
+.NavbarItems {
+  background: rgba(73, 63, 252, 1);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.slider-label {
+    color: rgb(235, 230, 230);
+    font-size: 1.2rem;
+}
+
+.nav-menu-gen {
+  padding: 15px;
+  list-style: none;
+  display: inline;
+  text-align: left;
+  width: 12vw;
+  overflow:hidden;
+}
+
+.nav-menu-slider{
+  padding: 15px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  width: 20.5vw;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  overflow: hidden;
+}
+
+.nav-menu-sort-type {
+  padding: 15px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 20px;
+  text-align: center;
+  width: 20vw;
+  overflow: hidden;
+  border-right: 2px solid black;
+  justify-content: flex-start;
+  vertical-align: ;
+}
+
+.nav-menu-sort-button {
+  padding: 15px;
+  list-style: none;
+}

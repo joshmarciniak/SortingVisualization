@@ -1,0 +1,51 @@
+select {
+  box-shadow: 0 10px 25px rgba(0,0, 0, 0);
+  font-size: 1rem;
+  padding: 0.3em 0.3em;
+  background: rgb(235, 230, 230);
+  color: black;
+  border: 3px;
+}
+
+.custom-select {
+  position: relative;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  background: orange;
+  height: 100%;
+  width: 1rem;
+  pointer-events: none;
+}
+
+.custom-arrow::before,
+.custom-arrow::after {
+  --size: 0.3em;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.custom-arrow::before {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent ;
+  border-bottom: var(--size) solid black;
+
+  top: 40%;
+}
+
+.custom-arrow::after {
+  border-left: var(--size) solid transparent;
+  border-right: var(--size) solid transparent ;
+  border-top: var(--size) solid black;
+
+  top: 70%;
+}

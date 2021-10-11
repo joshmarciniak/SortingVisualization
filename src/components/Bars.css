@@ -1,0 +1,17 @@
+.barsContainer {
+  width: 900;
+  margin-right: 20%;
+  margin-left: 20%;
+  height: auto;
+  padding: 0px;
+  text-align: center;
+  display: block;
+
+}
+
+.bar-element {
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+
+}
