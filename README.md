@@ -1,10 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+### `Sorting Visualizer`
+The purpose of this project is to visualize multiple sorting algorithms using animations.  
+The algorithms that are visualized are Quick sort, Insertion sort, Selection Sort, and Bubble Sort.
+The project was created using React.js.
 
 ### `npm start`
 
