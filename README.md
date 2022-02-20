@@ -3,7 +3,7 @@ The purpose of this project is to visualize multiple sorting algorithms using an
 The algorithms that are visualized are Quick sort, Insertion sort, Selection Sort, and Bubble Sort.
 The project was created using React.js.
 
-### Live Demo
+### `Live Demo`
 https://drive.google.com/file/d/1zV0anP7f117sFs_mogyic8pSAcmsx71w/view?usp=sharing
 
 ### `npm start`
